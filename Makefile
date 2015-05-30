@@ -9,6 +9,7 @@ $(FILE).ps: $(FILE).dvi
 
 $(FILE).dvi: $(DEPENDENCIES)
 	latex $(FILE).tex
+	bibtex $(FILE).tex
 	latex $(FILE).tex
 	latex $(FILE).tex
 
