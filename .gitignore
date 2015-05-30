@@ -2,3 +2,9 @@
 *.aux
 *.dvi
 *.pdf
+*.toc
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
