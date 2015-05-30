@@ -9,4 +9,4 @@ git init
 git add $1.tex .template.tex .gitignore Makefile get_bibLibrary.sh initialize.sh
 git commit -m "initial commit"
 ./get_bibLibrary.sh
-rm LISCENCE
+rm LICENSE
