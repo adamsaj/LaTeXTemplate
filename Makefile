@@ -8,10 +8,10 @@ $(FILE).ps: $(FILE).dvi
 	dvips -Pcmz $(FILE).dvi -o $(FILE).ps
 
 $(FILE).dvi: $(DEPENDENCIES)
-	latex $(FILE).tex
-	bibtex $(FILE).tex
-	latex $(FILE).tex
-	latex $(FILE).tex
+	latex $(FILE)
+	bibtex $(FILE)
+	latex $(FILE)
+	latex $(FILE)
 
 clean:
-	rm *.dvi *.pdf *.log *.aux *.toc *.lof *.lot *.idx *.ind *.ilg *.ps
+	rm *.dvi *.pdf *.log *.aux *.toc *.lof *.lot *.idx *.ind *.ilg *.ps *.bbl *.blg
