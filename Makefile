@@ -14,4 +14,4 @@ $(FILE).dvi: $(DEPENDENCIES)
 	latex $(FILE)
 
 clean:
-	rm *.dvi *.pdf *.log *.aux *.toc *.lof *.lot *.idx *.ind *.ilg *.ps *.bbl *.blg
+	rm $(FILE).dvi $(FILE).pdf $(FILE).log $(FILE).aux $(FILE).toc $(FILE).lof $(FILE).lot $(FILE).idx $(FILE).ind $(FILE).ilg $(FILE).ps $(FILE).bbl $(FILE).blg
